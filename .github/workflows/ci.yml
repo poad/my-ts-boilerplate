@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+    - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v5
+
+    - uses: pnpm/action-setup@v4
+      name: Install pnpm
+      with:
+        run_install: |
+          - recursive: true
+            args: [--no-frozen-lockfile]
+
+    - name: Lint
+      run: pnpm run --if-present --recursive --parallel lint
+
+    - name: Build
+      run: pnpm run --if-present --recursive --parallel build
