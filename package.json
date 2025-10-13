@@ -28,7 +28,7 @@
     "tsx": "^4.20.6",
     "pnpm": "^10.18.2",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.45.0",
+    "typescript-eslint": "^8.46.1",
     "vitest": "^3.2.4"
   }
 }
