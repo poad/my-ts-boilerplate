@@ -29,6 +29,6 @@
     "pnpm": "^10.19.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.2",
-    "vitest": "^3.2.4"
+    "vitest": "^4.0.1"
   }
 }
