@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "vitest run --passWithNoTests --pool threads --poolOptions.threads.singleThread",
+    "test": "vitest run --passWithNoTests",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix"
   },
@@ -23,6 +23,6 @@
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.2",
-    "vitest": "^3.2.4"
+    "vitest": "^4.0.1"
   }
 }
