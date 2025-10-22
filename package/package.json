@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "vitest run --passWithNoTests --pool threads --poolOptions.threads.singleThread",
+    "test": "vitest run --passWithNoTests",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix"
   },
