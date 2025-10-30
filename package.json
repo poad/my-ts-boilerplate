@@ -16,7 +16,7 @@
   "packageManager": "pnpm@10.20.0",
   "devDependencies": {
     "@eslint/compat": "^1.4.1",
-    "@eslint/core": "^0.16.0",
+    "@eslint/core": "^0.17.0",
     "@eslint/js": "^9.38.0",
     "@stylistic/eslint-plugin": "^5.5.0",
     "@types/node": "24.9.2",
