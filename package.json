@@ -4,31 +4,16 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
+    "build": "pnpm run --if-present --recursive --parallel build",
     "test": "pnpm run --if-present --recursive --parallel test",
-    "lint": "eslint .",
-    "lint-fix": "eslint . --fix"
+    "lint": "pnpm run --if-present --recursive --parallel lint",
+    "lint-fix": "pnpm run --if-present --recursive --parallel lint-fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.20.0",
   "devDependencies": {
-    "@eslint/compat": "^1.4.1",
-    "@eslint/core": "^0.17.0",
-    "@eslint/js": "^9.38.0",
-    "@stylistic/eslint-plugin": "^5.5.0",
-    "@types/node": "24.9.2",
-    "eslint": "^9.38.0",
-    "eslint-import-resolver-typescript": "^4.4.4",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-promise": "^7.2.1",
-    "jiti": "^2.6.1",
-    "pnpm": "^10.20.0",
-    "tsx": "^4.20.6",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.2",
-    "vitest": "^4.0.5"
+    "pnpm": "^10.20.0"
   }
 }

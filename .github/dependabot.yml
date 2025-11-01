@@ -17,8 +17,7 @@ updates:
   - package-ecosystem: npm
     directories:
       - '/'
-      - '/package/core/'
-      - '/example/'
+      - '/package/'
     schedule:
       interval: daily
       timezone: Asia/Tokyo
