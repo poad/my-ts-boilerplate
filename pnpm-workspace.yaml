@@ -1,6 +1,9 @@
 packages:
   - 'package'
 
+allowBuilds:
+  esbuild: false
+  unrs-resolver: false
 
 minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
