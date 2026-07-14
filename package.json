@@ -15,18 +15,18 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "^11.5.1",
+      "version": "~11.10.0",
       "onFail": "download"
-    }
-  },
-  "engines": {
-    "npm": "use pnpm please!",
-    "yarn": "use pnpm please!",
+    },
     "runtime": {
       "name": "node",
       "version": "^24.18.0",
       "onFail": "download"
     }
   },
-  "dependencies": {}
+  "engines": {
+    "npm": "use pnpm please!",
+    "yarn": "use pnpm please!"
+  },
+  "devDependencies": {}
 }
